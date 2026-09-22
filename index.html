@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Productos</h1>
+    <p>Listado Productos</p>
+
+    <div id="lista-productos">
+
+    </div>
+
+    <script>
+        fetch("http://127.0.0.1:5000/Producto")
+            .then(respuesta => respuesta.json())
+            .then(productos => {
+
+                const contenedor = document.getElementById("lista-productos");
+
+                productos.forEach(producto => {
+                    contenedor.innerHTML += `
+                        <div class="tarjeta-producto">
+                            <h3>${producto.nombre}</h3>
+                            <p>Precio: $${producto.valor_venta}</p>
+                        </div>
+                    `;
+                });
+
+            });
+    </script>
+
+</body>
+</html>
