@@ -69,6 +69,43 @@ def crear_productos():
     
     return jsonify({"Mensaje: ": "Producto creado correctamente", "Id_producto": id_producto}),201
 
+#PUT - Actualizar productos
+@app.route("/Producto/<int:id_producto>", methods=["PUT"])
+def actualizar_productos(id_producto):
+    
+        datos = request.get_json()
+        
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("""
+            UPDATE Producto
+            SET prod_nombre = ?, 
+            prod_peso = ?, 
+            tipo_unidad = ?, 
+            porcentaje_iva = ?, 
+            costo_unitario = ?,
+            valor_unitario = ?,
+            descuento_producto = ?
+            WHERE Id_Producto = ?""",
+            (datos["prod_nombre"],
+                datos["prod_peso"],
+                datos["tipo_unidad"],
+                datos["porcentaje_iva"],
+                datos["costo_unitario"],
+                datos["valor_unitario"],
+                datos["descuento_producto"],
+                id_producto
+            ))
+
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Producto actualizado correctamente", "Id_producto": id_producto}),200
+    
+    
 #GET - Obtener Clientes    
 @app.route("/Cliente") 
 def obtener_cliente():
@@ -95,6 +132,7 @@ def obtener_cliente():
                 "cli_descuento": fila[11]
             })
         return jsonify(clientes)  
+
  
 #POST - Creacion de Clientes    
 @app.route("/Cliente", methods=["POST"])
@@ -140,6 +178,50 @@ def crear_clientes():
         
         return jsonify({"Mensaje ": "Clientes nuevo creado correctamente", "Id_cliente": id_cliente}),201
 
+#PUT - Actualizar Cliente
+@app.route("/Cliente/<int:id_cliente>", methods=["PUT"])
+def actualizar_clientes(id_cliente):
+    
+        datos = request.get_json()
+        
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("""
+            UPDATE Cliente
+            SET cli_nombre1 = ?,
+            cli_nombre2 = ?,
+            cli_apellido1 = ?,
+            cli_apellido2 = ?,
+            tipo_documento = ?,
+            num_documento = ?,
+            cli_direccion = ?,
+            cli_telefono = ?,
+            cli_estado = ?,
+            fecha_creacion = ?,
+            cli_descuento = ?
+            WHERE Id_cliente = ?""",
+            (datos["cli_nombre1"],
+                datos["cli_nombre2"],
+                datos["cli_apellido1"],
+                datos["cli_apellido2"],
+                datos["tipo_documento"],
+                datos["num_documento"],
+                datos["cli_direccion"],
+                datos["cli_telefono"],
+                datos["cli_estado"],
+                datos["fecha_creacion"],
+                datos["cli_descuento"],
+                id_cliente
+            ))
+
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Cliente actualizado correctamente", "Id_cliente": id_cliente}),200
+    
 # GET - Obtener Usuario
 @app.route("/Usuario") 
 def obtener_usuario():
