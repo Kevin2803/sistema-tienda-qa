@@ -270,7 +270,34 @@ def crear_usuario():
         
         return jsonify({"Mensaje ": "Usuario nuevo creado correctamente", "Id_usuario": id_usuario}),201
     
+#PUT - Actualizar Usuario
+@app.route("/Usuario/<int:id_usuario>", methods=["PUT"])
+def actualizar_usuarios(id_usuario):
     
+        datos = request.get_json()
+        
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("""
+            UPDATE Usuario
+            SET usuario_nombre = ?,
+            usuario_apellido = ?,
+            usuario_estado = ?
+            WHERE Id_usuario = ?""",
+            (datos["usuario_nombre"],
+                datos["usuario_apellido"],
+                datos["usuario_estado"],
+                id_usuario
+            ))
+
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Usuario actualizado correctamente", "Id_usuario": id_usuario}),200
+        
 # GET - Obtener Factura
 @app.route("/Factura") 
 def obtener_factura():

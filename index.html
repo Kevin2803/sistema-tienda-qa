@@ -7,31 +7,15 @@
 </head>
 <body>
 
-    <h1>Productos</h1>
-    <p>Listado Productos</p>
+    <h1>Sistema Tienda</h1>
+    <p>Selecciona un módulo</p>
 
-    <div id="lista-productos">
-
-    </div>
-
-    <script>
-        fetch("http://127.0.0.1:5000/Producto")
-            .then(respuesta => respuesta.json())
-            .then(productos => {
-
-                const contenedor = document.getElementById("lista-productos");
-
-                productos.forEach(producto => {
-                    contenedor.innerHTML += `
-                        <div class="tarjeta-producto">
-                            <h3>${producto.nombre}</h3>
-                            <p>Precio: $${producto.valor_venta}</p>
-                        </div>
-                    `;
-                });
-
-            });
-    </script>
+    <nav>
+        <a href="producto.html">Productos</a>
+        <a href="cliente.html">Clientes</a>
+        <a href="usuario.html">Usuarios</a>
+        <a href="factura.html">Facturas</a>
+    </nav>
 
 </body>
 </html>

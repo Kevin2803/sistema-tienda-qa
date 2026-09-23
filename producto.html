@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Productos</h1>
+    <p>Listado Productos</p>
+
+    <div id="lista-productos">
+
+    </div>
+
+    <form id="form-productos">
+        <label for="prod_nombre">Nombre:</label>
+        <input type="text" id="prod_nombre" required>
+
+        <label for="prod_peso">Peso:</label>
+        <input type="number" id="prod_peso" required>
+
+        <label for="tipo_unidad">Tipo Unidad:</label>
+        <input type="text" id="tipo_unidad" required>
+
+        <label for="porcentaje_iva">IVA:</label>
+        <input type="number" id="porcentaje_iva" required>
+
+        <label for="costo_unitario">Costo:</label>
+        <input type="number" id="costo_unitario" required>
+
+        <label for="valor_unitario">Precio Unitario:</label>
+        <input type="number" id="valor_unitario" required>
+
+        <label for="descuento_producto">Descuento:</label>
+        <input type="number" id="descuento_producto" required>
+
+        <button type="button" id="btn-crear"> Crear Producto</button>
+    </form>
+
+    <script>
+        fetch("http://127.0.0.1:5000/Producto")
+            .then(respuesta => respuesta.json())
+            .then(productos => {
+
+                const contenedor = document.getElementById("lista-productos");
+
+                productos.forEach(producto => {
+                    contenedor.innerHTML += `
+                        <div class="tarjeta-producto">
+                            <h3>${producto.nombre}</h3>
+                            <p>Precio: $${producto.valor_venta}</p>
+                        </div>
+                    `;
+                });
+
+            });
+        document.getElementById("btn-crear").addEventListener("click", function(){
+
+            const nuevoProducto = {
+                prod_nombre: document.getElementById("prod_nombre").value,
+                prod_peso: document.getElementById("prod_peso").value,
+                tipo_unidad: document.getElementById("tipo_unidad").value,
+                porcentaje_iva: document.getElementById("porcentaje_iva").value,
+                costo_unitario: document.getElementById("costo_unitario").value,
+                valor_unitario: document.getElementById("valor_unitario").value,
+                descuento_producto: document.getElementById("descuento_producto").value
+            };
+
+            fetch("http://127.0.0.1:5000/Producto",{
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify(nuevoProducto)
+            })
+            .then(respuesta=> respuesta.json())
+            .then(resultado =>{
+                alert("Producto creado correctamente")
+            })
+        })    
+    </script>
+
+</body>
+</html>
