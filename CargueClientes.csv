@@ -1,0 +1,51 @@
+cli_nombre1;cli_nombre2;cli_apellido1;cli_apellido2;tipo_documento;num_documento;cli_direccion;cli_telefono;cli_estado;fecha_creacion;cli_descuento
+Juan;Andres;Gomez;Hernandez;CC;1085822412;Cra 15 #45-30, Bogota;3129885207;Activo;15/01/2024;0
+Carlos;Eduardo;Rodriguez;Pena;CC;1003356886;Calle 80 #12-40, Bogota;3173827621;Activo;22/03/2024;0
+Andres;Alejandra;Martinez;Reyes;CC;1032868828;Cra 43A #10-25, Medellin;3159917677;Activo;10/05/2024;0
+Felipe;Cristina;Lopez;Gutierrez;CC;1018728463;Calle 50 #65-12, Medellin;3127513338;Activo;8/07/2024;5
+Santiago;;Garcia;Acosta;CE;1090825067;Av 6 Norte #23-45, Cali;3246395715;Inactivo;19/09/2024;10
+Camila;;Perez;Cortes;NIT;1011668732;Cra 100 #5-20, Cali;3213258777;Activo;5/01/2025;0
+Valentina;;Gonzalez;Beltran;CC;1004265799;Calle 72 #38-15, Barranquilla;3107998630;Activo;14/02/2025;0
+Laura;Jose;Sanchez;Bautista;CC;1012575562;Cra 45 #82-10, Barranquilla;3158690184;Activo;30/04/2025;0
+Maria;Antonio;Ramirez;Prieto;CC;1031227216;Calle 34 #22-18, Bucaramanga;3235655277;Activo;11/06/2025;5
+Sofia;Ximena;Torres;Molina;CC;1080801586;Cra 27 #48-55, Bucaramanga;3107123195;Inactivo;23/08/2025;10
+Diego;;Diaz;Hernandez;CE;1075329037;Av Circunvalar #10-30, Pereira;3153375074;Activo;15/01/2024;0
+Alejandro;;Vargas;Pena;NIT;1096102525;Calle 19 #8-40, Manizales;3246281615;Activo;22/03/2024;0
+Daniel;;Castro;Reyes;CC;1056306997;Cra 8 #15-25, Ibague;3159174078;Activo;10/05/2024;0
+David;;Ruiz;Gutierrez;CC;1060291817;Calle 30 #12-10, Cucuta;3174676249;Activo;8/07/2024;5
+Sebastian;Alberto;Alvarez;Acosta;CC;1000872248;Av Ciudad de Cali #60-20, Bogota;3142858220;Inactivo;19/09/2024;10
+Natalia;Fernanda;Romero;Cortes;CC;1093702683;Cra 68 #40-15, Bogota;3213444689;Activo;5/01/2025;0
+Paula;Beatriz;Suarez;Beltran;CE;1045667651;Calle 44 #70-30, Medellin;3174590520;Activo;14/02/2025;0
+Juliana;;Rojas;Bautista;NIT;1020868105;Cra 33 #6-18, Cali;3157797847;Activo;30/04/2025;0
+Isabella;;Moreno;Prieto;CC;1045176955;Calle 85 #15-45, Bogota;3127436862;Activo;11/06/2025;5
+Mariana;;Mendez;Molina;CC;1012448136;Cra 50 #25-60, Barranquilla;3201985959;Inactivo;23/08/2025;10
+Jorge;Andres;Castillo;Hernandez;CC;1012981052;Cra 15 #45-30, Bogota;3196362792;Activo;15/01/2024;0
+Luis;Eduardo;Ortiz;Pena;CC;1046164955;Calle 80 #12-40, Bogota;3171006778;Activo;22/03/2024;0
+Ricardo;Alejandra;Silva;Reyes;CE;1005831819;Cra 43A #10-25, Medellin;3223325926;Activo;10/05/2024;0
+Oscar;Cristina;Nino;Gutierrez;NIT;1071971316;Calle 50 #65-12, Medellin;3133507767;Activo;8/07/2024;5
+Fernando;;Herrera;Acosta;CC;1050806024;Av 6 Norte #23-45, Cali;3121152766;Inactivo;19/09/2024;10
+Adriana;;Medina;Cortes;CC;1074093639;Cra 100 #5-20, Cali;3178699444;Activo;5/01/2025;0
+Claudia;;Aguilar;Beltran;CC;1084374605;Calle 72 #38-15, Barranquilla;3197075663;Activo;14/02/2025;0
+Patricia;Jose;Cardenas;Bautista;CC;1077490893;Cra 45 #82-10, Barranquilla;3151617074;Activo;30/04/2025;0
+Monica;Antonio;Guerrero;Prieto;CE;1094566031;Calle 34 #22-18, Bucaramanga;3118671069;Activo;11/06/2025;5
+Sandra;Ximena;Rios;Molina;NIT;1006150444;Cra 27 #48-55, Bucaramanga;3161175976;Inactivo;23/08/2025;10
+Miguel;;Gomez;Hernandez;CC;1038840994;Av Circunvalar #10-30, Pereira;3121418995;Activo;15/01/2024;0
+Gabriel;;Rodriguez;Pena;CC;1031244663;Calle 19 #8-40, Manizales;3127112365;Activo;22/03/2024;0
+Nicolas;;Martinez;Reyes;CC;1051019678;Cra 8 #15-25, Ibague;3174617971;Activo;10/05/2024;0
+Julian;;Lopez;Gutierrez;CC;1060855700;Calle 30 #12-10, Cucuta;3197933892;Activo;8/07/2024;5
+Esteban;Alberto;Garcia;Acosta;CE;1021831063;Av Ciudad de Cali #60-20, Bogota;3199369696;Inactivo;19/09/2024;10
+Catalina;Fernanda;Perez;Cortes;NIT;1047683626;Cra 68 #40-15, Bogota;3156239114;Activo;5/01/2025;0
+Daniela;Beatriz;Gonzalez;Beltran;CC;1089949389;Calle 44 #70-30, Medellin;3171666312;Activo;14/02/2025;0
+Angela;;Sanchez;Bautista;CC;1094196727;Cra 33 #6-18, Cali;3119166965;Activo;30/04/2025;0
+Carolina;;Ramirez;Prieto;CC;1081756179;Calle 85 #15-45, Bogota;3145939680;Activo;11/06/2025;5
+Lorena;;Torres;Molina;CC;1071691040;Cra 50 #25-60, Barranquilla;3165715932;Inactivo;23/08/2025;10
+Pedro;Andres;Diaz;Hernandez;CE;1021931511;Cra 15 #45-30, Bogota;3224087031;Activo;15/01/2024;0
+Manuel;Eduardo;Vargas;Pena;NIT;1050929647;Calle 80 #12-40, Bogota;3172463567;Activo;22/03/2024;0
+Rodrigo;Alejandra;Castro;Reyes;CC;1085899313;Cra 43A #10-25, Medellin;3249505059;Activo;10/05/2024;0
+Ivan;Cristina;Ruiz;Gutierrez;CC;1029476249;Calle 50 #65-12, Medellin;3187048983;Activo;8/07/2024;5
+Cristian;;Alvarez;Acosta;CC;1007507864;Av 6 Norte #23-45, Cali;3161484623;Inactivo;19/09/2024;10
+Viviana;;Romero;Cortes;CC;1004308421;Cra 100 #5-20, Cali;3184678783;Activo;5/01/2025;0
+Diana;;Suarez;Beltran;CE;1053843426;Calle 72 #38-15, Barranquilla;3171871145;Activo;14/02/2025;0
+Marcela;Jose;Rojas;Bautista;NIT;1008883684;Cra 45 #82-10, Barranquilla;3156635274;Activo;30/04/2025;0
+Elena;Antonio;Moreno;Prieto;CC;1076125617;Calle 34 #22-18, Bucaramanga;3184470701;Activo;11/06/2025;5
+Tatiana;Ximena;Mendez;Molina;CC;1028538251;Cra 27 #48-55, Bucaramanga;3234011371;Inactivo;23/08/2025;10

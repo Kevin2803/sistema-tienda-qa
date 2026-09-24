@@ -105,6 +105,23 @@ def actualizar_productos(id_producto):
             
         return jsonify({"Mensaje: ": "Producto actualizado correctamente", "Id_producto": id_producto}),200
     
+#DELET - Eliminar producto
+@app.route("/Producto/<int:id_producto>", methods=["DELETE"])
+def eliminar_productos(id_producto):
+    
+           
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("DELETE FROM Producto WHERE Id_producto = ?", (id_producto,))
+        
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Producto eliminado correctamente", "Id_producto": id_producto}),200
+
     
 #GET - Obtener Clientes    
 @app.route("/Cliente") 
@@ -133,7 +150,7 @@ def obtener_cliente():
             })
         return jsonify(clientes)  
 
- 
+    
 #POST - Creacion de Clientes    
 @app.route("/Cliente", methods=["POST"])
 def crear_clientes():
@@ -221,6 +238,23 @@ def actualizar_clientes(id_cliente):
         conexion.close()
             
         return jsonify({"Mensaje: ": "Cliente actualizado correctamente", "Id_cliente": id_cliente}),200
+#DELETE - Eliminar clientes
+@app.route("/Cliente/<int:id_cliente>", methods=["DELETE"])
+def eliminar_clientes(id_cliente):
+    
+           
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("DELETE FROM Cliente WHERE Id_Cliente = ?", (id_cliente,))
+        
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Cliente eliminado correctamente", "Id_cliente": id_cliente}),200
+    
     
 # GET - Obtener Usuario
 @app.route("/Usuario") 
@@ -240,6 +274,24 @@ def obtener_usuario():
                 "usuario_estado": fila[3],
                 })
         return jsonify(usuarios)  
+
+#DELETE - Eliminar usuarios
+@app.route("/Usuario/<int:id_usuario>", methods=["DELETE"])
+def eliminar_usuario(id_usuario):
+    
+           
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("DELETE FROM Usuario WHERE Id_usuario = ?", (id_usuario,))
+        
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Usuario eliminado correctamente", "Id_usuario": id_usuario}),200
+
 
 #POST - Crear Usuario
 @app.route("/Usuario", methods=["POST"])
@@ -374,8 +426,24 @@ def crear_factura():
         
         conexion.close()
         
-        return jsonify({"Mensaje": "Factura creada correctamente", "Id_factura": id_factura}),201    
+        return jsonify({"Mensaje": "Factura creada correctamente", "Id_factura": id_factura}),201  
+      
+#DELETE - Eliminar facturas
+@app.route("/Factura/<int:id_factura>", methods=["DELETE"])
+def eliminar_facturas(id_factura):
     
+           
+        conexion = sqlite3.connect(RUTA_DB)
+        
+        cursor = conexion.cursor()
+        
+        cursor.execute("DELETE FROM Factura WHERE Id_factura = ?", (id_factura,))
+        
+        conexion.commit()
+                             
+        conexion.close()
+            
+        return jsonify({"Mensaje: ": "Factura eliminado correctamente", "Id_factura": id_factura}),200    
     
 if __name__ == "__main__":
     app.run(debug=True)    

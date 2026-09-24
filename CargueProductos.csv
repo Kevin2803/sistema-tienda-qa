@@ -1,0 +1,101 @@
+prod_nombre;prod_peso;tipo_unidad;porcentaje_iva;costo_unitario;valor_unitario;descuento_producto
+Amazing Spider-Man Vol. 1 - Marvel (Tomo);0.35;UND;0;28000;52000;0
+Amazing Spider-Man Vol. 2 - Marvel (Tomo);0.35;UND;0;29000;53800;5
+X-Men: Edad de Apocalipsis - Marvel (Deluxe);0.85;UND;0;67000;133600;10
+Avengers: Los Vengadores Vol. 1 - Marvel (Tomo);0.35;UND;0;31000;57400;0
+Iron Man: Demonio en una Botella - Marvel (Tomo);0.35;UND;0;32000;59200;5
+Capitan America: El Soldado de Invierno - Marvel (Deluxe);0.85;UND;0;65000;130000;10
+Thor: Dios del Trueno - Marvel (Tomo);0.35;UND;0;29000;53800;0
+Wolverine: Origen - Marvel (Deluxe);0.85;UND;0;67000;133600;5
+Daredevil de Frank Miller - Marvel (Deluxe);0.85;UND;0;68000;135400;10
+Guardianes de la Galaxia Vol. 1 - Marvel (Tomo);0.35;UND;0;32000;59200;0
+Deadpool: Clasico Vol. 1 - Marvel (Regular);0.1;UND;0;9000;17000;0
+Hulk: Planeta Hulk - Marvel (Deluxe);0.85;UND;0;66000;131800;10
+Black Panther de Christopher Priest - Marvel (Tomo);0.35;UND;0;30000;55600;0
+Doctor Strange: El Hechicero Supremo - Marvel (Regular);0.1;UND;0;12000;22400;0
+Fantastic Four: Los 4 Fantasticos Vol. 1 - Marvel (Tomo);0.35;UND;0;32000;59200;10
+Venom: Lethal Protector - Marvel (Regular);0.1;UND;0;9000;17000;0
+Ms. Marvel Vol. 1 - Marvel (Regular);0.1;UND;0;10000;18800;0
+She-Hulk: Leyes de la Atraccion - Marvel (Regular);0.1;UND;0;11000;20600;5
+Silver Surfer: Requiem - Marvel (Deluxe);0.85;UND;0;68000;135400;0
+Moon Knight: Renacido - Marvel (Tomo);0.35;UND;0;32000;59200;5
+Batman: Year One - DC (Deluxe);0.85;UND;0;65000;130000;10
+Batman: The Killing Joke - DC (Deluxe);0.85;UND;0;66000;131800;0
+Batman: El Regreso del Caballero Oscuro - DC (Deluxe);0.85;UND;0;67000;133600;5
+Superman: Red Son - DC (Deluxe);0.85;UND;0;68000;135400;10
+Superman: Hijo Rojo Edicion Especial - DC (Deluxe);0.85;UND;0;69000;137200;0
+Wonder Woman: Los Origenes - DC (Tomo);0.35;UND;0;28000;52000;5
+The Flash: Renacimiento - DC (Tomo);0.35;UND;0;29000;53800;10
+Green Lantern: Renacimiento - DC (Tomo);0.35;UND;0;30000;55600;0
+Justice League: La Torre de Babel - DC (Tomo);0.35;UND;0;31000;57400;5
+Aquaman: El Trono de Atlantis - DC (Regular);0.1;UND;0;13000;24200;5
+Teen Titans: El Juicio de Kid Flash - DC (Regular);0.1;UND;0;9000;17000;0
+Suicide Squad Vol. 1 - DC (Regular);0.1;UND;0;10000;18800;0
+Green Arrow: Flecha Verde Vol. 1 - DC (Regular);0.1;UND;0;11000;20600;5
+Nightwing: Ano Uno - DC (Tomo);0.35;UND;0;31000;57400;0
+Watchmen - DC (Deluxe);0.85;UND;0;69000;137200;5
+The Sandman Vol. 1: Preludios y Nocturnos - DC (Deluxe);0.85;UND;0;65000;130000;10
+Swamp Thing: La Maldicion - DC (Tomo);0.35;UND;0;29000;53800;0
+Joker - DC (Regular);0.1;UND;0;11000;20600;0
+Harley Quinn: Preso Numero Uno - DC (Regular);0.1;UND;0;12000;22400;5
+Doom Patrol: Manicomio - DC (Tomo);0.35;UND;0;32000;59200;0
+The Walking Dead Vol. 1 - Image Comics (Regular);0.1;UND;0;9000;17000;0
+Saga Vol. 1 - Image Comics (Regular);0.1;UND;0;10000;18800;5
+Spawn: Origenes Vol. 1 - Image Comics (Regular);0.1;UND;0;11000;20600;0
+Invincible Vol. 1 - Image Comics (Regular);0.1;UND;0;12000;22400;0
+Chew Vol. 1 - Image Comics (Regular);0.1;UND;0;13000;24200;5
+East of West Vol. 1 - Image Comics (Tomo);0.35;UND;0;28000;52000;0
+Black Science Vol. 1 - Image Comics (Tomo);0.35;UND;0;29000;53800;5
+Paper Girls Vol. 1 - Image Comics (Regular);0.1;UND;0;11000;20600;5
+Outcast Vol. 1 - Image Comics (Regular);0.1;UND;0;12000;22400;0
+Wytches Vol. 1 - Image Comics (Regular);0.1;UND;0;13000;24200;0
+Hellboy: Semilla de Destruccion - Dark Horse (Tomo);0.35;UND;0;28000;52000;10
+Sin City: La Dura Despedida - Dark Horse (Deluxe);0.85;UND;0;66000;131800;0
+The Umbrella Academy: Apocalipsis Suite - Dark Horse (Tomo);0.35;UND;0;30000;55600;5
+Berserk Vol. 1 - Dark Horse (Regular);0.1;UND;0;12000;22400;5
+300 - Dark Horse (Deluxe);0.85;UND;0;69000;137200;0
+B.P.R.D.: Coleccion de Fantasmas - Dark Horse (Tomo);0.35;UND;0;28000;52000;5
+Conan el Barbaro Vol. 1 - Dark Horse (Tomo);0.35;UND;0;29000;53800;10
+Star Wars: Dark Times Vol. 1 - Dark Horse (Regular);0.1;UND;0;11000;20600;0
+Aliens vs Predator: Guerra Eterna - Dark Horse (Tomo);0.35;UND;0;31000;57400;5
+Concrete Vol. 1 - Dark Horse (Regular);0.1;UND;0;13000;24200;5
+Transformers: Mas que Meros Robots - IDW (Tomo);0.35;UND;0;28000;52000;0
+Tortugas Ninja Vol. 1 - IDW (Regular);0.1;UND;0;10000;18800;0
+Locke & Key Vol. 1: Bienvenidos a Lovecraft - IDW (Deluxe);0.85;UND;0;67000;133600;10
+My Little Pony: Amistad es Magia Vol. 1 - IDW (Regular);0.1;UND;0;12000;22400;0
+G.I. Joe: Coleccion Clasica Vol. 1 - IDW (Regular);0.1;UND;0;13000;24200;0
+Star Trek: Coleccion Ongoing Vol. 1 - IDW (Regular);0.1;UND;0;9000;17000;5
+Judge Dredd: Coleccion Clasica Vol. 1 - IDW (Tomo);0.35;UND;0;29000;53800;0
+Rom: Espadachin Espacial Vol. 1 - IDW (Regular);0.1;UND;0;11000;20600;0
+Micronauts Vol. 1 - IDW (Regular);0.1;UND;0;12000;22400;5
+Dungeons & Dragons: Forjadores de Leyendas Vol. 1 - IDW (Regular);0.1;UND;0;13000;24200;0
+Lumberjanes Vol. 1 - Boom! Studios (Regular);0.1;UND;0;9000;17000;0
+Something is Killing the Children Vol. 1 - Boom! Studios (Regular);0.1;UND;0;10000;18800;5
+Once & Future Vol. 1 - Boom! Studios (Regular);0.1;UND;0;11000;20600;0
+Firefly: Cazador Herido Vol. 1 - Boom! Studios (Regular);0.1;UND;0;12000;22400;0
+Power Rangers: Coleccion Vol. 1 - Boom! Studios (Regular);0.1;UND;0;13000;24200;5
+We Only Find Them When Theyre Dead Vol. 1 - Boom! Studios (Tomo);0.35;UND;0;28000;52000;0
+Klaus - Boom! Studios (Deluxe);0.85;UND;0;66000;131800;5
+Go Go Power Rangers Vol. 1 - Boom! Studios (Regular);0.1;UND;0;11000;20600;5
+BRZRKR Vol. 1 - Boom! Studios (Deluxe);0.85;UND;0;68000;135400;0
+The Amory Wars: Good Apollo Vol. 1 - Boom! Studios (Regular);0.1;UND;0;13000;24200;0
+Bloodshot Vol. 1: Setting the World on Fire - Valiant (Regular);0.1;UND;0;9000;17000;5
+X-O Manowar Vol. 1: By the Sword - Valiant (Regular);0.1;UND;0;10000;18800;0
+Harbinger Vol. 1: Omega Rising - Valiant (Regular);0.1;UND;0;11000;20600;0
+Shadowman Vol. 1: Birth Rites - Valiant (Regular);0.1;UND;0;12000;22400;5
+Ninjak Vol. 1: Weaponeer - Valiant (Regular);0.1;UND;0;13000;24200;0
+Divinity Vol. 1 - Valiant (Tomo);0.35;UND;0;28000;52000;5
+Quantum and Woody Vol. 1 - Valiant (Regular);0.1;UND;0;10000;18800;5
+Faith Vol. 1: Hollywood and Vine - Valiant (Regular);0.1;UND;0;11000;20600;0
+Archer & Armstrong Vol. 1 - Valiant (Regular);0.1;UND;0;12000;22400;0
+Rai Vol. 1: Welcome to New Japan - Valiant (Regular);0.1;UND;0;13000;24200;5
+Red Sonja Vol. 1: Reina Salvaje de Hyrkania - Dynamite (Regular);0.1;UND;0;9000;17000;0
+The Boys Vol. 1: El Nombre del Juego - Dynamite (Deluxe);0.85;UND;0;66000;131800;5
+Army of Darkness Vol. 1 - Dynamite (Regular);0.1;UND;0;11000;20600;5
+Vampirella Vol. 1 - Dynamite (Regular);0.1;UND;0;12000;22400;0
+Sherlock Holmes: El Legado de Verne - Dynamite (Tomo);0.35;UND;0;32000;59200;5
+Kick-Ass Vol. 1 - Dynamite (Deluxe);0.85;UND;0;65000;130000;10
+Green Hornet Vol. 1 - Dynamite (Regular);0.1;UND;0;10000;18800;0
+John Carter: Warlord of Mars Vol. 1 - Dynamite (Regular);0.1;UND;0;11000;20600;0
+Warlord of Mars Vol. 1 - Dynamite (Regular);0.1;UND;0;12000;22400;5
+Turok: Dinosaur Hunter Vol. 1 - Dynamite (Regular);0.1;UND;0;13000;24200;0
